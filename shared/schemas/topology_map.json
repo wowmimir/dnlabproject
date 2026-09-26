@@ -1,0 +1,111 @@
+{
+  "id": "default_root",
+  "type": "root",
+  "verification_state": "verified",
+  "children": [
+    {
+      "id": "EU",
+      "type": "region",
+      "verification_state": "pending_check",
+      "children": [
+        {
+          "id": "AS16509",
+          "type": "asn",
+          "verification_state": "pending_check",
+          "children": [
+            {
+              "id": "Frankfurt-1",
+              "type": "witnessing_zone",
+              "verification_state": "pending_check",
+              "children": [
+                {
+                  "id": "RowA",
+                  "type": "rack",
+                  "verification_state": "pending_check",
+                  "children": [
+                    {
+                      "peer_id": "QmGlobal1",
+                      "weight": 1.0,
+                      "type": "node"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "AS3209",
+          "type": "asn",
+          "verification_state": "pending_check",
+          "children": [
+            {
+              "id": "Local_Campus_A",
+              "type": "witnessing_zone",
+              "verification_state": "unverifiable_short_range",
+              "children": [
+                {
+                  "id": "Lab1",
+                  "type": "rack",
+                  "verification_state": "pending_check",
+                  "children": [
+                    {
+                      "peer_id": "QmLocal1",
+                      "weight": 1.0,
+                      "type": "node"
+                    }
+                  ]
+                },
+                {
+                  "id": "Lab2",
+                  "type": "rack",
+                  "verification_state": "pending_check",
+                  "children": [
+                    {
+                      "peer_id": "QmLocal2",
+                      "weight": 1.0,
+                      "type": "node"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "US",
+      "type": "region",
+      "verification_state": "pending_check",
+      "children": [
+        {
+          "id": "AS15169",
+          "type": "asn",
+          "verification_state": "pending_check",
+          "children": [
+            {
+              "id": "NY-Core",
+              "type": "witnessing_zone",
+              "verification_state": "pending_check",
+              "children": [
+                {
+                  "id": "RowB",
+                  "type": "rack",
+                  "verification_state": "pending_check",
+                  "children": [
+                    {
+                      "peer_id": "QmGlobal2",
+                      "weight": 1.0,
+                      "type": "node"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
