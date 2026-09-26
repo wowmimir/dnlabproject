@@ -1,0 +1,43 @@
+.venv/
+*/.venv/
+venv/
+ENV/
+env/
+.uv/
+*.egg-info/
+.dist/
+
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*__pycache__*
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# IDE & Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Build & Local Run Artifacts
+# ==========================================
+build/
+dist/
+*.log
